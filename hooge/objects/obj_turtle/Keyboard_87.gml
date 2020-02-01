@@ -1,11 +1,9 @@
-/// @DnDAction : YoYo Games.Movement.Jump_To_Point
+/// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1
-/// @DnDHash : 5BE3DA33
-/// @DnDArgument : "x_relative" "1"
-/// @DnDArgument : "y" "-5"
-/// @DnDArgument : "y_relative" "1"
-
-y += -5;
+/// @DnDHash : 70C68DB4
+/// @DnDArgument : "value" "-5"
+/// @DnDArgument : "var" "gy"
+global.gy = -5;
 
 /// @DnDAction : YoYo Games.Instances.Sprite_Rotate
 /// @DnDVersion : 1
